@@ -2,9 +2,9 @@
     "name": "bump-semver",
     "version": "1.0.0",
     "description": "Bumping semver in package.json",
-    "homepage": "https://github.com/wxx9248/baijiayunxiao-downloader",
+    "homepage": "https://github.com/wxx9248/bump-semver",
     "bugs": {
-        "url": "https://github.com/wxx9248/baijiayunxiao-downloader/issues",
+        "url": "https://github.com/wxx9248/bump-semver/issues",
         "email": "wxx9248@wxx9248.top"
     },
     "license": "BSD-3-Clause",
