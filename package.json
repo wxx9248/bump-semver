@@ -1,0 +1,40 @@
+{
+    "name": "bump-semver",
+    "version": "1.0.0",
+    "description": "Bumping semver in package.json",
+    "homepage": "https://github.com/wxx9248/baijiayunxiao-downloader",
+    "bugs": {
+        "url": "https://github.com/wxx9248/baijiayunxiao-downloader/issues",
+        "email": "wxx9248@wxx9248.top"
+    },
+    "license": "BSD-3-Clause",
+    "author": {
+        "name": "wxx9248",
+        "email": "wxx9248@wxx9248.top",
+        "url": "https://github.com/wxx9248"
+    },
+    "main": "main.ts",
+    "scripts": {
+        "build": "tsc",
+        "run": "tsc && node dist/main.js"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@rushstack/eslint-patch": "^1.1.4",
+        "@types/node": "^18.13.0",
+        "@types/semver": "^7.3.13",
+        "@typescript-eslint/eslint-plugin": "^5.51.0",
+        "@typescript-eslint/parser": "^5.51.0",
+        "eslint": "^8.33.0",
+        "eslint-plugin-vue": "^9.3.0",
+        "prettier": "^2.8.4",
+        "typescript": "~4.9.5"
+    },
+    "dependencies": {
+        "chalk": "^5.2.0",
+        "semver": "^7.3.8"
+    },
+    "engines": {
+        "node": "18.*.*"
+    }
+}
