@@ -18,6 +18,6 @@ export class ColoredLogger {
     }
 
     debug(...data: any) {
-        console.info(chalk.blue("[*] " + data.toString()));
+        console.debug(chalk.blue("[*] " + data.toString()));
     }
 }
