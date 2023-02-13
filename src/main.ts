@@ -65,7 +65,7 @@ async function main() {
         object["version"] = version.version
 
         logger.debug("Writing back to package.json");
-        const jsonString = JSON.stringify(object, null, 4);
+        const jsonString = JSON.stringify(object, null, 2);
         await fs.promises.writeFile(packageJSONFilePath, jsonString);
 
         logger.success("Operation is successful");

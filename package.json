@@ -1,6 +1,6 @@
 {
     "name": "bump-semver",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Bumping semver in package.json",
     "homepage": "https://github.com/wxx9248/bump-semver",
     "bugs": {
