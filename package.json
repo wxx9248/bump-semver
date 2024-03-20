@@ -20,7 +20,7 @@
     },
     "type": "module",
     "devDependencies": {
-        "@rushstack/eslint-patch": "^1.7.2",
+        "@rushstack/eslint-patch": "^1.8.0",
         "@types/node": "^18.19.26",
         "@types/semver": "^7.5.8",
         "@typescript-eslint/eslint-plugin": "^5.62.0",
