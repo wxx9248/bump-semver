@@ -19,8 +19,8 @@ importers:
         specifier: ^1.10.4
         version: 1.10.4
       '@types/node':
-        specifier: ^18.19.42
-        version: 18.19.42
+        specifier: ^22.0.2
+        version: 22.0.2
       '@types/semver':
         specifier: ^7.5.8
         version: 7.5.8
@@ -102,8 +102,8 @@ packages:
   '@types/json-schema@7.0.11':
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
 
-  '@types/node@18.19.42':
-    resolution: {integrity: sha512-d2ZFc/3lnK2YCYhos8iaNIYu9Vfhr92nHiyJHRltXWjXUBjEE+A4I58Tdbnw4VhggSW+2j5y5gTrLs4biNnubg==}
+  '@types/node@22.0.2':
+    resolution: {integrity: sha512-yPL6DyFwY5PiMVEwymNeqUTKsDczQBJ/5T7W/46RwLU/VH+AA8aT5TZkvBviLKLbbm0hlfftEkGrNzfRk/fofQ==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -599,8 +599,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.11.1:
+    resolution: {integrity: sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==}
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -687,9 +687,9 @@ snapshots:
 
   '@types/json-schema@7.0.11': {}
 
-  '@types/node@18.19.42':
+  '@types/node@22.0.2':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.11.1
 
   '@types/semver@7.5.8': {}
 
@@ -1194,7 +1194,7 @@ snapshots:
 
   typescript@5.5.4: {}
 
-  undici-types@5.26.5: {}
+  undici-types@6.11.1: {}
 
   uri-js@4.4.1:
     dependencies:
