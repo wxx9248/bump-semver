@@ -23,7 +23,7 @@
         "@rushstack/eslint-patch": "^1.15.0",
         "@types/node": "^25.2.2",
         "@types/semver": "^7.7.1",
-        "@typescript-eslint/eslint-plugin": "^8.54.0",
+        "@typescript-eslint/eslint-plugin": "^8.55.0",
         "@typescript-eslint/parser": "^8.55.0",
         "eslint": "^9.39.2",
         "eslint-plugin-vue": "^9.33.0",
