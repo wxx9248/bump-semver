@@ -27,7 +27,7 @@
         "@typescript-eslint/parser": "^8.58.1",
         "eslint": "^9.39.2",
         "eslint-plugin-vue": "^9.33.0",
-        "prettier": "^3.8.1",
+        "prettier": "^3.8.2",
         "typescript": "~5.9.3"
     },
     "dependencies": {
