@@ -13,7 +13,7 @@ const releaseTypes = ["major", "premajor", "minor", "preminor", "patch", "prepat
 
 function printUsage() {
     logger.info(
-        `Usage: ${path.basename(process.argv[1])} [package.json] [${
+        `Usage: ${path.basename(process.argv[1]!)} [package.json] [${
             releaseTypes.reduce((previousValue, currentValue): string => {
                 return previousValue + " | " + currentValue;
             })
@@ -35,7 +35,7 @@ async function main() {
         process.exit(1);
     }
 
-    const releaseTypeString = process.argv[3];
+    const releaseTypeString = process.argv[3]!;
     const releaseType = toReleaseType(releaseTypeString);
     if (releaseType === undefined) {
         logger.error(`Invalid release type: ${releaseTypeString}`);
@@ -43,7 +43,7 @@ async function main() {
         process.exit(1);
     }
 
-    const packageJSONFilePath = process.argv[2];
+    const packageJSONFilePath = process.argv[2]!;
 
     logger.info(`Using package.json file: ${packageJSONFilePath}`);
     logger.info(`Will bump semver by: ${releaseType}`);
