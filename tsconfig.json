@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "NodeNext",
     "target": "ES2022",
-    "moduleResolution": "Node",
+    "moduleResolution": "NodeNext",
+    "rootDir": "src",
     "removeComments": true,
     "alwaysStrict": true,
     "noImplicitAny": true,
