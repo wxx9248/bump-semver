@@ -4,6 +4,7 @@
     "target": "ES2022",
     "moduleResolution": "NodeNext",
     "rootDir": "src",
+    "types": ["node"],
     "removeComments": true,
     "alwaysStrict": true,
     "noImplicitAny": true,
